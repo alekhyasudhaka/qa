@@ -6,6 +6,6 @@ Scenario('facebook login page', ({ I }) => {
  I.fillField('email','alekhya@gmail.com');
  I.fillField('pass','password');
  I.click('login');
- 
+ I.see('login facebook');
 
 });
